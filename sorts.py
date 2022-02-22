@@ -8,10 +8,10 @@ def selection_sort(a_list):
 			if (a_list[j] < a_list[smallest]):
 				smallest = j
 			j += 1
-			# Swap
-			# temp = a_list[i]
-			# a_list[i] = a_list[smallest]
-			# a_list[smallest] = temp
-			a_list[i], a_list[smallest] = a_list[smallest], a_list[i]
+		# Swap
+		# temp = a_list[i]
+		# a_list[i] = a_list[smallest]
+		# a_list[smallest] = temp
+		a_list[i], a_list[smallest] = a_list[smallest], a_list[i]
 		print(a_list)
 		i += 1
